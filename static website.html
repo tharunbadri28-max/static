@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PraRoz Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding:0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: url('https://images.stockcake.com/public/f/2/5/f25eea63-cc4a-4745-b36f-2c1411768e44_large/sunset-tree-reflection-stockcake.jpg') ;
+            height: 100vh;
+            margin:0;
+            background-size: cover;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+        }
+
+        .logo {
+            color: orange;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .menu a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .search-box input {
+            padding: 5px;
+        }
+
+        .search-box button {
+            background: orange;
+            border: none;
+            padding: 6px 10px;
+            cursor: pointer;
+        }
+
+       
+        .main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+        }
+
+        .content {
+            max-width: 500px;
+        }
+
+        .content h1 {
+            font-size: 40px;
+        }
+
+        .content span {
+            color: orange;
+        }
+
+        .content p {
+            margin: 15px 0;
+        }
+
+        .btn {
+            background: orange;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+       
+        .login-box {
+            background: rgba(0,0,0,0.8);
+            padding: 30px;
+            border-radius: 10px;
+            width: 250px;
+        }
+
+        .login-box h2 {
+            background: white;
+            color: orange;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .login-box input {
+            width: 100%;
+            margin: 15px 0;
+            padding: 8px;
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid orange;
+            color: white;
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 10px;
+            background: orange;
+            border: none;
+            cursor: pointer;
+        }
+
+        .signup {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .signup a {
+            color: orange;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="logo">PraRoz</div>
+
+        <div class="menu">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">SERVICE</a>
+            <a href="#">DESIGN</a>
+            <a href="#">CONTACT</a>
+        </div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Type to Search">
+            <button>Search</button>
+        </div>
+    </div>
+
+    <div class="main">
+
+        <div class="content">
+            <h1>Web Design & <span>Development</span> Course</h1>
+            <p>
+                Web Design is a specialisation of the design stream. They also use HTML,
+                CSS, WYSIWYG editing software, mark up validators etc..
+            </p>
+            <button class="btn">JOIN US</button>
+        </div>
+
+        <!-- Login Form -->
+        <div class="login-box">
+            <h2>Login Here</h2>
+
+            <input type="email" placeholder="Enter Email Here">
+            <input type="password" placeholder="Enter Password Here">
+
+            <button class="login-btn">Login</button>
+
+            <div class="signup">
+                <p>Don't have an account?</p>
+                <a href="#">Sign up here</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
